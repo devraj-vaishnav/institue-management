@@ -13,7 +13,6 @@ $padd=$_POST['padd'];
 $salary=$_POST['salary'];
 $id=$_POST['id'];
 
-
 $conn = new mysqli('localhost','root','','institute_db');
 
 $sql = "update `emp` set title= '$title',name='$name',lname='$lname',fname='$fname',mname='$mname',mnumber='$mnumber',
